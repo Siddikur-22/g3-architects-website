@@ -248,7 +248,7 @@ nav li a {
 }
 
 /* footer section */
-footer {
+.footer {
     width: 1200px;
     height: 40px;
     border-radius: 8px;
