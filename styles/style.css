@@ -283,8 +283,12 @@ nav li a {
     .teams-container,
     .facts-card-container,
     .sponsors-img-container,
-    .features {
+    .features{
         flex-direction: column;
+    }
+    .footer{
+        width: 100px;
+        text-align: center;
     }
 
     .feature-img img {
@@ -315,8 +319,8 @@ nav li a {
     }
 }
 
-/* tabet devices */
-@media screen and (min-width:576px) and (max-width:960px) {
+    /* tabet devices */
+   @media screen and (min-width:576px) and (max-width:960px) {
     header {
         padding: 20px;
     }
