@@ -24,6 +24,10 @@ header {
     padding: 50px 240px;
 
 }
+main{
+    max-width: 1440px;
+    margin:0 auto;
+}
 
 nav {
     display: flex;
@@ -75,6 +79,26 @@ nav li a {
 .banner img {
     margin-top: 20px;
     width: 100%;
+}
+
+/* teams-container */
+
+.teams-container{
+    display: flex;
+    align-items: center;
+
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1.5rem;
+}
+.teams-content{
+    padding-right:70px;
+    padding-left: 70px;
+}
+.teams-title .quick-list{
+    color: #727272;
 }
 
 /* responsive media quries */
