@@ -287,8 +287,11 @@ nav li a {
         flex-direction: column;
     }
     .footer{
-        width: 100px;
+        width: 360px;
+        height: 40px;
         text-align: center;
+        font-size: 10px;
+        margin-left: 5px;
     }
 
     .feature-img img {
@@ -334,6 +337,13 @@ nav li a {
         flex-direction: column;
         margin-right: 250px;
         width: 70%;
+    }
+    .footer{
+        width: 700px;
+        font-size: 18px;
+        text-align: center;
+        margin-left: 350px;
+       
     }
 
 }
